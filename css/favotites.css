@@ -1,0 +1,85 @@
+.favorites {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 30px;
+  .favorites-center {
+    max-width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 16px;
+    .favorites-center-top {
+      margin-bottom: 20px;
+      h2 {
+        font-family: var(--font-family);
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        flex-flow: row wrap;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+    .favorites-center-bottom {
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .swiper-slide-item {
+          width: 100%;
+          height: 100%;
+          .swiper-slide-item-div {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: flex-start;
+            flex-flow: row wrap;
+            align-items: center;
+            column-gap: 10px;
+            img {
+              width: 88px;
+              height: 88px;
+            }
+            .swiper-slide-item-p {
+              display: -webkit-box;
+             flex: 1;
+             min-width: 0;
+             text-align: right;
+              -webkit-box-orient: vertical;
+              -moz-box-orient: vertical;
+              -ms-box-orient: vertical;
+              box-orient: vertical;
+              -webkit-line-clamp: 2;
+              line-clamp: 2;
+              overflow: hidden;
+              font-family: var(--font-family);
+              font-size: 12px;
+              line-height: 25px;
+              span {
+                background-color: crimson;
+                color: whitesmoke;
+                display: inline-block;
+                padding: 2px 10px;
+                border-radius: 50%;
+              }
+            }
+          }
+        }
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.categorize {
+  width: 100%;
+  height: 370px;
+  margin-top: 30px;
+  .categorize-center {
+    max-width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    .categorize-center-top {
+        margin-bottom: 20px;
+      h2 {
+        font-family: var(--font-family);
+        font-size: 20px;
+        font-weight: normal;
+      }
+    }
+    .categorize-center-bottom{
+        .categorize-center-bottom-item{
+            display: flex;
+            justify-content: space-between;
+            flex-flow:  row wrap;
+            margin-bottom: 20px;
+            div{
+                img{
+                    width: 100px;
+                    height: 100px;
+                    display: block;
+                    margin: 10px auto;
+                }
+                h3{
+                    font-family: var(--font-family);
+                    font-size: 12px;
+                    font-weight: normal;
+                    text-align:center;
+                }
+            }
+        }
+    }
+  }
+}

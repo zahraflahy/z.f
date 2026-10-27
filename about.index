@@ -1,0 +1,12 @@
+ <nav class="navbar">
+                            <div class="navbar-item"><a class="navbar-link" href="" ><img src="./images/header/menu-svg.svg" alt="">دسته بندی کالاها</a></div>
+                                  <div class="navbar-item"><a class="navbar-link" href=""><img src="./images/header/offer.svg.svg" alt="" style="width: 18px; height: 18px;">شگفت انگیز ها</a></div>
+                                    <div class="navbar-item"><a class="navbar-link" href=""><img src="./images/header/basket.svg.svg" alt="">سوپر مارکت</a></div>
+                                      <div class="navbar-item"><a class="navbar-link" href=""><img src="./images/header/gold-svg.svg" alt="">طلا و نقره دیجیتال</a></div>
+                                        <div class="navbar-item"><a class="navbar-link" href=""><img src="./images/header/top-seler.svg" alt="">پرفروش ترین ها</a></div>
+                                          <div class="navbar-item"><a class="navbar-link" href=""><img src="./images/header/shirt.svg.svg" alt="">دیجی استایل</a></div>
+  <div class="navbar-item"><a class="navbar-link" href="">در دیجی کالا بفروشید!</a></div>
+                        </nav>
+          
+                  
+                </div>

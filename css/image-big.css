@@ -1,0 +1,22 @@
+.image-big {
+  width: 100%;
+  height: 260px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  .image-big-center {
+    max-width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    .image-big-center-item {
+      display: flex;
+      justify-content: space-between;
+      div {
+        img {
+          width: 640px;
+          height: 258px;
+          border-radius: 16px;
+        }
+      }
+    }
+  }
+}
